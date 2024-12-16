@@ -23,7 +23,7 @@ class TestCalcolatrice {
 
 		Assert.assertEquals(11, ris, 0);
 	}
-	@Test  
+	@Test   
 	public void testSomma3() {		
 		Calcolatrice c = new Calcolatrice();
 	
