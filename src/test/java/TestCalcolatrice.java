@@ -6,7 +6,7 @@ import org.junit.Test;
 class TestCalcolatrice {
 
 	@Test
-	void testSomma() {		
+	public void testSomma() {		
 		Calcolatrice c = new Calcolatrice();
 	
 	
@@ -15,7 +15,7 @@ class TestCalcolatrice {
 		Assert.assertEquals(12, ris, 0);
 	}
 	@Test
-	void testSomma2() {		
+	public void testSomma2() {		
 		Calcolatrice c = new Calcolatrice();
 	
 	
@@ -24,7 +24,7 @@ class TestCalcolatrice {
 		Assert.assertEquals(11, ris, 0);
 	}
 	@Test  
-	void testSomma3() {		
+	public void testSomma3() {		
 		Calcolatrice c = new Calcolatrice();
 	
 	
