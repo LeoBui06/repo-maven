@@ -3,7 +3,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-class TestCalcolatrice {
+public class TestCalcolatrice {
+	
+	TestCalcolatrice(){
+		
+	}
 
 	@Test
 	public void testSomma() {		
